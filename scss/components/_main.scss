@@ -20,7 +20,7 @@ html {
 
 body{
   font-family: $lobster;
-  color: $lila;
+  color: $teal;
   @include zero;
   // Hides close button if there is no js
   &.noscript .close-btn,
@@ -57,7 +57,7 @@ h1{
 			background-color: $lila;
 			text-decoration: none;
 			font-size: 200%;
-			color: $teal;
+			color: $white;
 		}
 		&:first-child a {
 			border-top: 1px solid $light-grey;
@@ -67,7 +67,7 @@ h1{
 
 a:hover 
 {
-     color: $white; 
+     color: $teal; 
      text-decoration: none; 
      cursor: pointer;  
 	 @include ease(all, 700ms, ease-in-out);
@@ -76,7 +76,7 @@ a:hover
 
 .toggle-btn,
 .close-btn{
-	color: $teal;
+	color: $white;
 	height: 40px;
 	width: 40px;
 	margin-top: .7rem;
