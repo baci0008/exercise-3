@@ -20,7 +20,7 @@ html {
 
 body{
   font-family: $lobster;
-  color: $teal;
+
   @include zero;
   // Hides close button if there is no js
   &.noscript .close-btn,
@@ -42,6 +42,7 @@ header {
 
 h1{
 	font-family: $roboto;
+	color: $teal;
 }
 
 
@@ -53,11 +54,11 @@ h1{
 			display: block;
 			padding: .5em 1em;
 			text-align: center;
-			border-bottom: 3px solid $light-grey;
+			
 			background-color: $lila;
 			text-decoration: none;
 			font-size: 200%;
-			color: $white;
+
 		}
 		&:first-child a {
 			border-top: 1px solid $light-grey;
@@ -65,7 +66,11 @@ h1{
 	}
 }
 
-a:hover 
+
+
+a:hover,
+a:focus,
+a:active  
 {
      color: $teal; 
      text-decoration: none; 
