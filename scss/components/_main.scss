@@ -20,7 +20,7 @@ html {
 
 body{
   font-family: $lobster;
-  color: $teal;
+  color: $teal-dark;
   @include zero;
   // Hides close button if there is no js
   &.noscript .close-btn,
@@ -40,6 +40,11 @@ header {
 	top: 0;
 }
 
+h1{
+	font-family: $roboto;
+}
+
+
 .navigation ul{
 	@include zero;
 	li{
@@ -50,8 +55,8 @@ header {
 			text-align: center;
 			border-bottom: 1px solid $light-grey;
 			text-decoration: none;
-			text-transform: uppercase;
-			font-size: 150%;
+			font-size: 200%;
+			color: $teal;
 		}
 		&:first-child a {
 			border-top: 1px solid $light-grey;
